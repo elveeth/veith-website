@@ -3,7 +3,7 @@ import alienLoungeImg from '../assets/img/mywork-tile.jpg';
 import flyingBirdImg from '../assets/img/myart-tile.jpg';
 import paintSmilesImg from '../assets/img/mycode-tile.jpg';
 
-export const PHOTOS = [
+export const HOMETILES = [
     {
         id: 0,
         name: 'About Me',
