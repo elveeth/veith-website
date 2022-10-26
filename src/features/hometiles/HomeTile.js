@@ -1,6 +1,6 @@
 import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 
-const HomeTile = ({ hometile }) => {
+const Hometile = ({ hometile }) => {
     const { image, name } = hometile;
     return (
         <Card>
@@ -16,4 +16,4 @@ const HomeTile = ({ hometile }) => {
     )
 };
 
-export default HomeTile;
+export default Hometile;

@@ -1,8 +1,8 @@
 import { Col, Row } from 'reactstrap';
-import HomeTile from './HomeTile';
+import Hometile from './Hometile';
 import { selectAllHometiles } from './hometilesSlice';
 
-const HomeTilesList = () => {
+const HometilesList = () => {
     const hometiles = selectAllHometiles();
     return (
         <Row className='ms-auto'>
@@ -13,7 +13,7 @@ const HomeTilesList = () => {
                         className='m-4'
                         key={hometile.id}
                     >
-                        <HomeTile hometile={hometile} />
+                        <Hometile hometile={hometile} />
                     </Col>
 
                 )
@@ -22,4 +22,4 @@ const HomeTilesList = () => {
     )
 };
 
-export default HomeTilesList;
+export default HometilesList;

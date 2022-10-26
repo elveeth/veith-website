@@ -1,6 +1,6 @@
 import { Container, Row, Col, Button } from 'reactstrap';
 import HometileDetail from '../features/hometiles/HometileDetail';
-import HomeTilesList from '../features/hometiles/HomeTilesList';
+import HometilesList from '../features/hometiles/HometilesList';
 import { selectRandomHometile } from '../features/hometiles/hometilesSlice';
 
 const HometilesDirectoryPage = () => {
@@ -18,7 +18,7 @@ const HometilesDirectoryPage = () => {
             </Button>
             <Row>
                 <Col sm='5' md='7'>
-                    <HomeTilesList />
+                    <HometilesList />
                 </Col>
                 <Col sm='7' md='5'>
                     <HometileDetail hometile={selectedHometile} />
