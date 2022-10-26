@@ -1,11 +1,12 @@
-import { HOMETILES } from '../../app/shared/HOMETILES';
 import { Col, Row } from 'reactstrap';
 import HomeTile from './HomeTile';
+import { selectAllHometiles } from './hometilesSlice';
 
 const HomeTilesList = () => {
+    const hometiles = selectAllHometiles();
     return (
         <Row className='ms-auto'>
-            {HOMETILES.map((hometile) => {
+            {hometiles.map((hometile) => {
                 return (
                     <Col
                         md='5'

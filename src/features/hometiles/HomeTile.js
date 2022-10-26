@@ -1,15 +1,16 @@
 import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 
-const HomeTile = (props) => {
+const HomeTile = ({ hometile }) => {
+    const { image, name } = hometile;
     return (
         <Card>
             <CardImg 
                 width='100%'
-                src={props.hometile.image}
-                alt={props.hometile.name}
+                src={image}
+                alt={name}
             />
             <CardImgOverlay>
-                <CardTitle>{props.hometile.name}</CardTitle>
+                <CardTitle>{name}</CardTitle>
             </CardImgOverlay>
         </Card>
     )

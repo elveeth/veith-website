@@ -1,14 +1,13 @@
 import './App.css';
 import Header from './components/Header';
-import HomeTilesList from './features/hometiles/HomeTilesList.js';
+import HometilesDirectoryPage from './pages/HometilesDirectoryPage';
 import Footer from './components/Footer';
-
 
 function App() {
   return (
     <div className="App">
       <Header />
-        <HomeTilesList />
+        <HometilesDirectoryPage />
       <Footer/>
     </div>
   );

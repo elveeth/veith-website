@@ -47,9 +47,9 @@ const Footer = () => {
                         <a
                             role='button'
                             className='btn btn-link'
-                            href='mailto:notreal@notreal.co'
+                            href='mailto:logan.veith@gmail.com'
                         >
-                            <i className='fa fa-envelope-o' /> campsites@nucamp.co
+                            <i className='fa fa-envelope-o' /> logan.veith@gmail.com
                         </a>
                     </Col>
                 </Row>
